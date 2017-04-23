@@ -6,9 +6,10 @@ public class LambdaSOP_3 {
 	public static void main(String[] args) {
 
 			   
-			   
-			      GreetingService greetService1 = message -> 
-			      System.out.println(salutation + message);
+					//Will work only if there 
+					//is 1 method in interface and with 1 parameter only
+			      GreetingService greetService1 = messa1ge -> 
+			      System.out.println(salutation + messa1ge);
 			      greetService1.sayMessage("Mahesh");
 			   }
 				
